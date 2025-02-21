@@ -62,7 +62,7 @@ MetaData Pipeline::getMetaDataFromFile(const std::string& filePath) const
 	metaData.filePath = filePath;
 	metaData.type = type;
 
-	metaData.uriType = UriType::File;
+	metaData.uriType = detectUriType(filePath);
 
 	return metaData;
 }

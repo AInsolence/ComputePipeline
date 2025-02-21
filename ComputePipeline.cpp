@@ -25,6 +25,8 @@ int main()
 	pipeline.addInput("/path/to/archive.zip");
 	pipeline.addInput("/path/to/file.json");
 	pipeline.addInput("/path/to/image.jpg");
+	pipeline.addInput("https://path/to/image.jpg");
+	pipeline.addInput("bundle://path/to/image.jpg");
 
 	pipeline.process();
 
