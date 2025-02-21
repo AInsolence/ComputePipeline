@@ -1,0 +1,51 @@
+# Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Build folders
+bin/
+obj/
+out/
+
+# Logs and temporary files
+*.log
+*.vspscc
+*.vssscc
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.dbmdl
+
+# Caching folders
+.vs2019/
+.vs2022/
+
+# .NET project-related files and cache
+packages/
+.nuget/
+
+# For ASP.NET projects
+App_Data/
+
+# Database files
+*.mdf
+*.ldf
+
+# NuGet packages
+*.nupkg
+
+# Azure Functions local files
+.local/
+
+# Xamarin cache
+Xamarin/
+
+# Test results and report files
+TestResults/
+
+# Azure DevOps and other CI/CD config files
+.vsts/
