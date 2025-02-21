@@ -46,11 +46,6 @@ void Pipeline::process()
 
 		std::cout << "URI Type: " << static_cast<int>(ProcessedObj->getMeta().uriType) << "\n";
 		std::cout << "Data Type: " << static_cast<int>(ProcessedObj->getMeta().type) << "\n\n";
-
-		if (ProcessedObj->getMeta().type == DataType::Zip)
-		{
-			queue.push(std::move(ProcessedObj));
-		}
 	}
 }
 
