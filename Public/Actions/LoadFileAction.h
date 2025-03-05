@@ -17,6 +17,6 @@ public:
 
 	bool canProcess(DataType type) const override
 	{
-		return type != DataType::Final || type != DataType::Unknown;
+		return type != DataType::Final && type != DataType::Unknown;
 	}
 };
